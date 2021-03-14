@@ -3,3 +3,9 @@ mixin link(href, name)
 
 mixin button(content) 
   button(class!=attributes.class)= content
+
+mixin feature(title, content, img) 
+  article.feature__item
+    img(src=img, alt="image")
+    h3= title 
+    p= content
