@@ -1,0 +1,15 @@
+nav.navbar
+  .logo
+    img(src="../../../assets/img/logos/Logo.png", alt="logo")
+  ul.navbar__list
+    li.navbar__li 
+      +link('#about', 'About')(class="navbar__link link")
+      +link('#products', 'Products')(class="navbar__link link")
+      +link('#pricing', 'Pricing')(class="navbar__link link")
+      +link('#blog', 'Blog')(class="navbar__link link")
+      +link('#jobs', 'Jobs')(class="navbar__link link")
+  .appstore_wrapper 
+    a(href="https://play.google.com/store/apps?hl=ru&gl=US")  
+      img(src="../../../assets/img/logos/Google Play Badge.png", alt="google play")
+    a(href="https://www.apple.com/ru/app-store/")  
+      img(src="../../../assets/img/logos/App Store Badge.png", alt="app store")
